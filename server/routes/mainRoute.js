@@ -3,6 +3,7 @@ const router = express.Router();
 
 //Routes
 router.get("/", (req, res) => {
+
   res.render("pages/index");
 });
 
